@@ -20,6 +20,7 @@ usermod -aG docker dockeradmin
 
 ```sh
 mkdir /opt/docker
+chown -R dockeradmin:dockeradmin /opt/docker
 
 ### vi Dockerfile
 # Pull base image 
